@@ -8,9 +8,6 @@ def pad(data):
     while len(data) % 8 != 0:
         data += b' '  # Padding with spaces
     return data
-
-
-
 # Function to encrypt image
 def encrypt_image(image_path, output_path, key):
     # Load the image
